@@ -1003,7 +1003,7 @@ class UdpManager {
             if (rttrd <= rtt) {
                 rtt -= rttrd
             }
-            rtt = ((rtt + NSECADJ_MSEC) / NSECINMSEC) // Convert to ms
+            rtt = ((rtt + NSECADJ_MSEC) / NSECINMSEC) // Convert to milliseconds
             //
             // Check for new minimum
             //

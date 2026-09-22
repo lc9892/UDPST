@@ -14,7 +14,7 @@ android {
         applicationId = "com.udpst"
         minSdk = 24
         targetSdk = 36
-        versionCode = 7
+        versionCode = 8
 
         var majorVer = "1"
         val minorVer = "0"
